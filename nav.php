@@ -1,9 +1,11 @@
 <h1>Police Emergency Service System</h1>
+
+<img src="images/banner.jpg" width="600" height="200">
 <nav id="HeaderStyle">
-	<ul>
-		<li><a href="logcall.php"><span>Log Call</span></a></li>
-		<li><a href="Update.php"><span>Update</span></a></li>
-		<li><a href="#"><span>Report</span></a></li>
-		<li><a href="#"><span>History</span></a></li>
-	</ul>
+    <ul>
+        <li><a href="logcall.php"><span>Log Call</span></a></li>
+        <li><a href="Update.php"><span>Update</span></a></li>
+        <li><a href="#"><span>Report</span></a></li>
+        <li><a href="#"><span>History</span></a><li>
+    </ul>
 </nav>

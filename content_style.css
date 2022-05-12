@@ -50,11 +50,11 @@
 }
 .ContentStyle td{
 	vertical-align:middle;
-		background:-o-linear-gradient(bottom, #ffaa56 5%, #aaffd4 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffaa56), color-stop(1, #aaffd4) ); 
-	background:-moz-linear-gradient( center top, #ffaa56 5%, #aaffd4 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffaa56", endColorstr="#aaffd4");	background: -o-linear-gradient(top,#ffaa56,aaffd4);
+		background:-o-linear-gradient(bottom, #3561b8 5%, #b8b8b8 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3561b8), color-stop(1, #b8b8b8) ); 
+	background:-moz-linear-gradient( center top, #3561b8 5%, #b8b8b8 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#3561b8", endColorstr="#b8b8b8");	background: -o-linear-gradient(top,#ffaa56,aaffd4);
 
-	background-color:#ffaa56;
+	background-color:#3561b8;
 
 	border:1px solid #000000;
 	border-width:0px 1px 1px 0px;
@@ -63,7 +63,7 @@
 	font-size:15px;
 	font-family:Arial;
 	font-weight:normal;
-	color:#000000;
+	color:#ffffff;
 }.ContentStyle tr:last-child td{
 	border-width:0px 1px 0px 0px;
 }.ContentStyle tr td:last-child{
@@ -72,11 +72,11 @@
 	border-width:0px 0px 0px 0px;
 }
 .ContentStyle tr:first-child td{
-		background:-o-linear-gradient(bottom, #ff7f00 5%, #bf5f00 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff7f00), color-stop(1, #bf5f00) );
-	background:-moz-linear-gradient( center top, #ff7f00 5%, #bf5f00 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff7f00", endColorstr="#bf5f00");	background: -o-linear-gradient(top,#ff7f00,bf5f00);
+		background:-o-linear-gradient(bottom, #ff7f00 5%, #bf5f00 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3561b8), color-stop(1, #b8b8b8) );
+	background:-moz-linear-gradient( center top, #3561b8 5%, #bf5f00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#3561b8", endColorstr="#b8b8b8");	background: -o-linear-gradient(top,#ff7f00,bf5f00);
 
-	background-color:#ff7f00;
+	background-color:#3561b8;
 	border:0px solid #000000;
 	text-align:center;
 	border-width:0px 0px 1px 1px;
@@ -86,11 +86,11 @@
 	color:#ffffff;
 }
 .ContentStyle tr:first-child:hover td{
-	background:-o-linear-gradient(bottom, #ff7f00 5%, #bf5f00 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff7f00), color-stop(1, #bf5f00) );
-	background:-moz-linear-gradient( center top, #ff7f00 5%, #bf5f00 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff7f00", endColorstr="#bf5f00");	background: -o-linear-gradient(top,#ff7f00,bf5f00);
+	background:-o-linear-gradient(bottom, #737373 5%, #3561b8 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #737373), color-stop(1, #3561b8) );
+	background:-moz-linear-gradient( center top, #737373 5%, #3561b8 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#737373", endColorstr="#bf5f00");	background: -o-linear-gradient(top,#ff7f00,3561b8);
 
-	background-color:#ff7f00;
+	background-color:#737373;
 }
 .ContentStyle tr:first-child td:first-child{
 	border-width:0px 0px 1px 0px;

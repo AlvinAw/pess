@@ -4,10 +4,10 @@
 <head>
 <meta charset="utf-8">
 <title>Police Emergency Service System</title>
-<link href="header_style.css" rel="stylesheet" type="text/css">
-<link href="content_style.css" rel="stylesheet" type="text/css">
+<link href="header_style.css" rel="stylesheet" text="text/css">
+<link href="content_style.css" rel="stylesheet" text="text/css">
 <script type="text/javascript">
-function validateForm() 
+function validateForm()
 {
     var x=document.forms["frmLogCall"]["callerName"].value;
     if(x==null || x=="")
@@ -15,7 +15,7 @@ function validateForm()
         alert("Caller Name is required.");
         return false;
     }
-    //may add code for validating other inputs -
+    //may add code for validating other inputs
     var x=document.forms["frmLogCall"]["contactNo"].value;
     if(x==null || x=="")
     {
@@ -46,7 +46,8 @@ function validateForm()
 </script>
 </head>
 <body>
-<?php //import nav.php 
+
+<?php //import nav.php
 require_once 'nav.php';
 ?>
 <?php //import db.php
@@ -71,7 +72,6 @@ if ($result->num_rows > 0) {
 
 $conn->close();
 ?>
-
 <form name = "frmLogCall" method="POST"
  onSubmit="return validateForm()" action="dispatch.php">
  <table class="ContentStyle">
@@ -94,7 +94,7 @@ $conn->close();
 <tr>
     <td>Incident Type :</td>
     <td>
-        <select name="incidentType" id="incidentType"> 
+        <select name="incidentType" id="incidentType">
         <?php // populate a combo box with $incidentType
             foreach ($incidentType as $key=> $value) {
         ?>
